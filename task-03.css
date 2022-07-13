@@ -1,0 +1,21 @@
+table{
+    width: 90%;
+    margin-right:auto;
+    margin-left: auto;
+    border: 3px solid  darkgreen;
+    margin-bottom: 20%;
+    height: 450px;
+    border-radius: 20px;
+ 
+    
+}
+tr,td{
+    border: 3px solid orangered;
+}
+td{
+    width: 50%;
+    border-radius: 20px;
+
+}
+
+
