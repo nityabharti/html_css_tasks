@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Task-04
+        </title>
+        <link href="Registration form.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <form>
+            <h1>Registration Form</h1><br><br>
+            <label for="name">First Name <span style="color:red;">*</span>:</label>
+            <input type="text" id="name" placeholder="Name" required><br><br>
+            <label for="last name">Last Name :</label>
+            <input type="text" id="last name" ><br><br>
+            <label for="number">Roll no. <span style="color:red;">*</span> :</label>
+            <input type="number" id="number" placeholder="Roll no" required><br><br>
+            <label for="number">D.O.B <span style="color:red;">*</span> :</label>
+            <input type="date" id="number" required ><br><br>
+            <label for="mobile no.">Mobile No. :</label>
+            <input type="number" id="mobile no."><br><br>
+            <label for="email">Email ID :</label>
+            <input type="email" id="email" placeholder="abcd@gmail.com"><br><br>
+            <label for="facebook-link">Facebook-link :</label>
+            <input type="url" id="facebook-link" placeholder="url"><br><br>
+            <label for="upload file">Upload file :</label>
+            <input type="file" name="upload file" id="upload file" accept=".jpg,.jpeg,.pdf,..image/*"><br><br>
+            <label for="gender">Gender :</label>
+            Male<input type="radio" id="gender">
+            Female<input type="radio" id="gender">
+            Others<input type="radio" id="gender"><br><br>
+            <label for="branch">Branch :</label>
+            <br>CSE<input type="checkbox" id="branch" ><br>
+            CIVIL<input type="checkbox" id="branch"><br>
+            EE<input type="checkbox" id="branch"><br>
+            <label> Language known : <select>
+                <optgroup label="web development"></optgroup>
+                    <option value="frontend">Frontend</option>
+                    <option value="backend">Backend</option></optgroup>
+                </optgroup>
+                <optgroup label="Frontend">
+                  <option value="html">html</option>
+                  <option value="css">css</option>
+                  <option value="js">js</option>
+                </optgroup>
+                <optgroup label="Backend">
+                    <option value="php">php</option>
+                    <option value="java">java</option>
+                    <option value="Python">Python</option>
+                    <option value="sql">sql</option>
+                  </optgroup>
+            </select></label><br><br>
+            <label >Write about your experience : </label> <textarea id="message" cols="20" rows="3"placeholder="message" ></textarea><br><br>
+            <input type="checkbox" > I hereby declare that all the information provided by me is true and correct.<br><br><br> 
+            <input type="submit" style="background-color: lightgoldenrodyellow;">
+            <input type="reset" style="background-color: lightgoldenrodyellow;">    
+        </form>
+    </body>
+</html>

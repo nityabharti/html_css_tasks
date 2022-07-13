@@ -1,0 +1,24 @@
+body{
+    
+    background-color:rgb(153, 126, 206);
+    background-repeat: no-repeat;
+    background-size: cover;}
+h1{
+    color:red;text-shadow:3px 3px 3px blue;text-align: center; font-family: Verdana, Geneva, Tahoma, sans-serif;border:3px solid 
+    darkgreen;background-color:lightgoldenrodyellow;border-radius: 10px;height: 40px;margin-left: 100px;margin-right: 100px;
+}
+form{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-light-sensitive-breathable-superimposed-simple-image_36621.jpg);background-repeat: no-repeat; height: 900px;width: 600px;justify-content: center; text-align: center;margin-left: auto;margin-right: auto;
+    border: 6px double darkblue;overflow: hidden;}
+label{
+    color: black;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 20px; font-weight: bold;
+}
+input{
+    border-radius: 5px;height: 25px;-moz-box-align: center;
+}
+input:hover{color: darkblue;background-color:lightpink;}
+select{
+    background-color:lightgoldenrodyellow;
+}
+
+
